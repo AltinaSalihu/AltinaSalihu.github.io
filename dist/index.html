@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Altinë's Shop</title>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="">
+    <meta name="author" content="Altinë Salihu" />
+    <!-- Favicon icon -->
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <!-- vendor css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    
+
+</head>
+<body class="">
+	<!-- [ Pre-loader ] start -->
+	<div class="loader-bg">
+		<div class="loader-track">
+			<div class="loader-fill"></div>
+		</div>
+	</div>
+	<!-- [ Pre-loader ] End -->
+	<!-- [ navigation menu ] start -->
+	<nav class="pcoded-navbar menu-light ">
+		<div class="navbar-wrapper  ">
+			<div class="navbar-content scroll-div " >
+				
+				<div class="">
+					<div class="main-menu-header">
+						<img class="img-radius" src="https://scontent.fprn1-1.fna.fbcdn.net/v/t1.0-9/123775323_3767911529930804_8446799837012013433_n.jpg?_nc_cat=100&ccb=2&_nc_sid=09cbfe&_nc_ohc=tpNy2fX6HLwAX-vemVP&_nc_ht=scontent.fprn1-1.fna&oh=22b46998c8e6dcbf89bc6d1b2cf9cb7d&oe=5FED28B9" alt="User-Profile-Image">
+						<div class="user-details">
+							<div id="more-details">Altinë Salihu <i class="fa fa-caret-down"></i></div>
+						</div>
+					</div>
+					<div class="collapse" id="nav-user-link">
+						<ul class="list-unstyled">
+							<li class="list-group-item"><a href="user-profile.html"><i class="feather icon-user m-r-5"></i>View Profile</a></li>
+							<li class="list-group-item"><a href="#!"><i class="feather icon-settings m-r-5"></i>Settings</a></li>
+							<li class="list-group-item"><a href="auth-normal-sign-in.html"><i class="feather icon-log-out m-r-5"></i>Log out</a></li>
+						</ul>
+					</div>
+				</div>
+				
+				<ul class="nav pcoded-inner-navbar ">
+					<li class="nav-item pcoded-menu-caption">
+					    <label>Pages</label>
+					</li>
+					<li class="nav-item">
+					    <a href="index.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-home"></i></span><span class="pcoded-mtext">Main page</span></a>
+					</li>
+				</div>
+				
+			</div>
+		</div>
+	</nav>
+	<!-- [ navigation menu ] end -->
+	<!-- [ Header ] start -->
+	<header class="navbar pcoded-header navbar-expand-lg navbar-light header-blue">
+		
+			
+				<div class="m-header">
+					<a class="mobile-menu" id="mobile-collapse" href="#!"><span></span></a>
+					<a href="#!" class="b-brand">
+						<!-- ========   change your logo hear   ============ -->
+						<img src="" alt="" class="logo">
+						<img src="https://static.wixstatic.com/media/182a29_8d732247d629400ca3923e45f0293cb8~mv2.png/v1/fill/w_560,h_238,al_c,lg_1,q_85/louise-lavery-logo-TRANSPARENT.webp" alt="" class="logo-thumb">
+					</a>
+					<a href="#!" class="mob-toggler">
+						<i class="feather icon-more-vertical"></i>
+					</a>
+				</div>
+				<div class="collapse navbar-collapse">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a href="#!" class="pop-search"><i class="feather icon-search"></i></a>
+							<div class="search-bar">
+								<input type="text" class="form-control border-0 shadow-none" placeholder="Search hear">
+								<button type="button" class="close" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+						</li>
+					</ul>
+					<ul class="navbar-nav ml-auto">
+						<li>
+							<div class="dropdown">
+								<a class="dropdown-toggle" href="#" data-toggle="dropdown"><i class="icon feather icon-bell"></i></a>
+								<div class="dropdown-menu dropdown-menu-right notification">
+									<div class="noti-head">
+										<h6 class="d-inline-block m-b-0">Notifications</h6>
+										<div class="float-right">
+											<a href="#!" class="m-r-10">mark as read</a>
+											<a href="#!">clear all</a>
+										</div>
+									</div>
+									<ul class="noti-body">
+										<li class="n-title">
+											<p class="m-b-0">NEW</p>
+										</li>
+										<li class="notification">
+											<div class="media">
+												<img class="img-radius" src="https://scontent.fprn1-1.fna.fbcdn.net/v/t1.0-9/123775323_3767911529930804_8446799837012013433_n.jpg?_nc_cat=100&ccb=2&_nc_sid=09cbfe&_nc_ohc=tpNy2fX6HLwAX-vemVP&_nc_ht=scontent.fprn1-1.fna&oh=22b46998c8e6dcbf89bc6d1b2cf9cb7d&oe=5FED28B9" alt="Generic placeholder image">
+												<div class="media-body">
+													<p><strong>Altinë Salihu</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>3 min</span></p>
+													<p>Updated the design of the page</p>
+												</div>
+											</div>
+										</li>
+										<li class="n-title">
+											<p class="m-b-0">EARLIER</p>
+										</li>
+										<li class="notification">
+											<div class="media">
+												<img class="img-radius" src="https://images.pexels.com/photos/948873/pexels-photo-948873.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Generic placeholder image">
+												<div class="media-body">
+													<p><strong>Anila Berisha</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>5 min</span></p>
+													<p>Accepted her order</p>
+												</div>
+											</div>
+										</li>
+										<li class="notification">
+											<div class="media">
+												<img class="img-radius" src="https://image.shutterstock.com/image-photo/closeup-portrait-yong-woman-casual-260nw-1554086789.jpg" alt="Generic placeholder image">
+												<div class="media-body">
+													<p><strong>Sara Jashari</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>10 min</span></p>
+													<p>Reviewed our products</p>
+												</div>
+											</div>
+										</li>
+										<li class="notification">
+											<div class="media">
+												<img class="img-radius" src="https://images.unsplash.com/photo-1553514029-1318c9127859?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Generic placeholder image">
+												<div class="media-body">
+													<p><strong>Leonita Salihu</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>30 min</span></p>
+													<p>Ordered from London</p>
+												</div>
+											</div>
+										</li>
+									</ul>
+									<div class="noti-footer">
+										<a href="#!">show all</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="dropdown drp-user">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+									<i class="feather icon-user"></i>
+								</a>
+								<div class="dropdown-menu dropdown-menu-right profile-notification">
+									<div class="pro-head">
+										<img src="https://scontent.fprn1-1.fna.fbcdn.net/v/t1.0-9/123775323_3767911529930804_8446799837012013433_n.jpg?_nc_cat=100&ccb=2&_nc_sid=09cbfe&_nc_ohc=tpNy2fX6HLwAX-vemVP&_nc_ht=scontent.fprn1-1.fna&oh=22b46998c8e6dcbf89bc6d1b2cf9cb7d&oe=5FED28B9" class="img-radius" alt="User-Profile-Image">
+										<span>Altinë Salihu</span>
+										<a href="auth-signin.html" class="dud-logout" title="Logout">
+											<i class="feather icon-log-out"></i>
+										</a>
+									</div>
+									<ul class="pro-body">
+										<li><a href="user-profile.html" class="dropdown-item"><i class="feather icon-user"></i> Profile</a></li>
+										<li><a href="email_inbox.html" class="dropdown-item"><i class="feather icon-mail"></i> My Messages</a></li>
+										<li><a href="auth-signin.html" class="dropdown-item"><i class="feather icon-lock"></i> Home</a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				
+			
+	</header>
+	<!-- [ Header ] end -->
+	
+	
+
+<!-- [ Main Content ] start -->
+<div class="pcoded-main-container">
+    <div class="pcoded-content">
+        <!-- [ breadcrumb ] start -->
+        <div class="page-header">
+            <div class="page-block">
+                <div class="row align-items-center">
+                    <div class="col-md-12">
+                        <div class="page-header-title">
+                            <h5 class="m-b-10">Home</h5>
+                        </div>
+                        <ul class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html"><i class="feather icon-home"></i></a></li>
+                            <li class="breadcrumb-item"><a href="#!">Welcome to Altinë's Shop</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- [ breadcrumb ] end -->
+        <!-- [ Main Content ] start -->
+        <div class="row">
+            <div class="col-lg-7 col-md-12">
+                <!-- support-section start -->
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card support-bar overflow-hidden">
+                            <div class="card-body pb-0">
+                                <h2 class="m-0">350</h2>
+                                <span class="text-c-blue">Daily sales</span>
+                                <p class="mb-3 mt-3">Worldwide ships</p>
+                            </div>
+                            <div id="support-chart"></div>
+                            <div class="card-footer bg-primary text-white">
+                                <div class="row text-center">
+                                    <div class="col">
+                                        <h4 class="m-0 text-white">35</h4>
+                                        <span>Orders</span>
+                                    </div>
+                                    <div class="col">
+                                        <h4 class="m-0 text-white">30</h4>
+                                        <span>Accepted products</span>
+                                    </div>
+                                    <div class="col">
+                                        <h4 class="m-0 text-white">5</h4>
+                                        <span>Waiting</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card support-bar overflow-hidden">
+                            <div class="card-body pb-0">
+                                <h2 class="m-0">19</h2>
+                                <span class="text-c-green">Daily sales</span>
+                                <p class="mb-3 mt-3">Sales in Kosovo.</p>
+                            </div>
+                            <div id="support-chart1"></div>
+                            <div class="card-footer bg-success text-white">
+                                <div class="row text-center">
+                                    <div class="col">
+                                        <h4 class="m-0 text-white">20</h4>
+                                        <span>Orders</span>
+                                    </div>
+                                    <div class="col">
+                                        <h4 class="m-0 text-white">7</h4>
+                                        <span>Accepted products</span>
+                                    </div>
+                                    <div class="col">
+                                        <h4 class="m-0 text-white">5</h4>
+                                        <span>Waiting </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- support-section end -->
+            </div>
+            <div class="col-lg-5 col-md-12">
+                <!-- page statustic card start -->
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row align-items-center">
+                                    <div class="col-8">
+                                        <h4 class="text-c-yellow">12560</h4>
+                                        <h6 class="text-muted m-b-0">Worlwide ship</h6>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <i class="feather icon-bar-chart-2 f-28"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-c-yellow">
+                                <div class="row align-items-center">
+                                    <div class="col-9">
+                                        <p class="text-white m-b-0">%</p>
+                                    </div>
+                                    <div class="col-3 text-right">
+                                        <i class="feather icon-trending-up text-white f-16"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row align-items-center">
+                                    <div class="col-8">
+                                        <h4 class="text-c-green">+50</h4>
+                                        <h6 class="text-muted m-b-0">New Products monthly</h6>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <i class="feather icon-file-text f-28"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-c-green">
+                                <div class="row align-items-center">
+                                    <div class="col-9">
+                                        <p class="text-white m-b-0">% </p>
+                                    </div>
+                                    <div class="col-3 text-right">
+                                        <i class="feather icon-trending-up text-white f-16"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row align-items-center">
+                                    <div class="col-8">
+                                        <h4 class="text-c-red">200</h4>
+                                        <h6 class="text-muted m-b-0">New products coming soon!</h6>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <i class="feather icon-calendar f-28"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-c-red">
+                                <div class="row align-items-center">
+                                    <div class="col-9">
+                                        <p class="text-white m-b-0">%</p>
+                                    </div>
+                                    <div class="col-3 text-right">
+                                        <i class="feather icon-trending-down text-white f-16"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row align-items-center">
+                                    <div class="col-8">
+                                        <h4 class="text-c-blue">13000</h4>
+                                        <h6 class="text-muted m-b-0">Mobile app users</h6>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <i class="feather icon-thumbs-down f-28"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-c-blue">
+                                <div class="row align-items-center">
+                                    <div class="col-9">
+                                        <p class="text-white m-b-0">% </p>
+                                    </div>
+                                    <div class="col-3 text-right">
+                                        <i class="feather icon-trending-down text-white f-16"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- page statustic card end -->
+            </div>
+            <!-- prject ,team member start -->
+            <div class="col-xl-6 col-md-12">
+                <div class="card table-card">
+                    <div class="card-header">
+                        <h5>Our team</h5>
+                        <div class="card-header-right">
+                            <div class="btn-group card-option">
+                                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="feather icon-more-horizontal"></i>
+                                </button>
+                                <ul class="list-unstyled card-option dropdown-menu dropdown-menu-right">
+                                    <li class="dropdown-item full-card"><a href="#!"><span><i class="feather icon-maximize"></i> maximize</span><span style="display:none"><i class="feather icon-minimize"></i> Restore</span></a></li>
+                                    <li class="dropdown-item minimize-card"><a href="#!"><span><i class="feather icon-minus"></i> collapse</span><span style="display:none"><i class="feather icon-plus"></i> expand</span></a></li>
+                                    <li class="dropdown-item reload-card"><a href="#!"><i class="feather icon-refresh-cw"></i> reload</a></li>
+                                    <li class="dropdown-item close-card"><a href="#!"><i class="feather icon-trash"></i> remove</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body p-0">
+                        <div class="table-responsive">
+                            <table class="table table-hover mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            <div class="chk-option">
+                                                <label class="check-task custom-control custom-checkbox d-flex justify-content-center done-task">
+                                                    <input type="checkbox" class="custom-control-input">
+                                                    <span class="custom-control-label"></span>
+                                                </label>
+                                            </div>
+                                            
+                                        </th>
+                                        <th>Profession</th>
+                                        <th>Started working</th>
+                                        <th class="text-right">Experience</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="chk-option">
+                                                <label class="check-task custom-control custom-checkbox d-flex justify-content-center done-task">
+                                                    <input type="checkbox" class="custom-control-input">
+                                                    <span class="custom-control-label"></span>
+                                                </label>
+                                            </div>
+                                            <div class="d-inline-block align-middle">
+                                                <img src="https://memepedia.ru/wp-content/uploads/2020/03/soft-girl-6.png" class="img-radius wid-40 align-top m-r-15">
+                                                <div class="d-inline-block">
+                                                    <h6>Anduenë Shala</h6>
+                                                    <p class="text-muted m-b-0"></p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>Ambassador</td>
+                                        <td>Sep, 13</td>
+                                        <td class="text-right"><label class="badge badge-light-danger">Low</label></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="chk-option">
+                                                <label class="check-task custom-control custom-checkbox d-flex justify-content-center done-task">
+                                                    <input type="checkbox" class="custom-control-input">
+                                                    <span class="custom-control-label"></span>
+                                                </label>
+                                            </div>
+                                            <div class="d-inline-block align-middle">
+                                                <img src="https://www.surreycomet.co.uk/resources/images/11434280.jpg?display=1&htype=0&type=responsive-gallery" class="img-radius wid-40 align-top m-r-15">
+                                                <div class="d-inline-block">
+                                                    <h6>Blerta Kryeziu</h6>
+                                                    <p class="text-muted m-b-0"></p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>Seller</td>
+                                        <td>Aug, 11</td>
+                                        <td class="text-right"><label class="badge badge-light-primary">high</label></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="chk-option">
+                                                <label class="check-task custom-control custom-checkbox d-flex justify-content-center done-task">
+                                                    <input type="checkbox" class="custom-control-input">
+                                                    <span class="custom-control-label"></span>
+                                                </label>
+                                            </div>
+                                            <div class="d-inline-block align-middle">
+                                                <img src="https://static01.nyt.com/images/2020/08/09/arts/09burna-boy3/09burna-boy3-mediumSquareAt3X.jpg" class="img-radius wid-40 align-top m-r-15">
+                                                <div class="d-inline-block">
+                                                    <h6>Flakon Zylfiu</h6>
+                                                    <p class="text-muted m-b-0"></p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>Ambassador</td>
+                                        <td>Jan, 08</td>
+                                        <td class="text-right"><label class="badge badge-light-success">medium</label></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="chk-option">
+                                                <label class="check-task custom-control custom-checkbox d-flex justify-content-center done-task">
+                                                    <input type="checkbox" class="custom-control-input">
+                                                    <span class="custom-control-label"></span>
+                                                </label>
+                                            </div>
+                                            <div class="d-inline-block align-middle">
+                                                <img src="https://d1e00ek4ebabms.cloudfront.net/production/ef771007-96ce-47b8-8d10-be8d9251f7b4.jpg" class="img-radius wid-40 align-top m-r-15">
+                                                <div class="d-inline-block">
+                                                    <h6>Nita Kastrati</h6>
+                                                    <p class="text-muted m-b-0"></p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>CEO</td>
+                                        <td>Sep, 14</td>
+                                        <td class="text-right"><label class="badge badge-light-primary">high</label></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 col-md-12">
+                <div class="card latest-update-card">
+                    <div class="card-header">
+                        <h5>Latest Updates</h5>
+                        <div class="card-header-right">
+                            <div class="btn-group card-option">
+                                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="feather icon-more-horizontal"></i>
+                                </button>
+                                <ul class="list-unstyled card-option dropdown-menu dropdown-menu-right">
+                                    <li class="dropdown-item full-card"><a href="#!"><span><i class="feather icon-maximize"></i> maximize</span><span style="display:none"><i class="feather icon-minimize"></i> Restore</span></a></li>
+                                    <li class="dropdown-item minimize-card"><a href="#!"><span><i class="feather icon-minus"></i> collapse</span><span style="display:none"><i class="feather icon-plus"></i> expand</span></a></li>
+                                    <li class="dropdown-item reload-card"><a href="#!"><i class="feather icon-refresh-cw"></i> reload</a></li>
+                                    <li class="dropdown-item close-card"><a href="#!"><i class="feather icon-trash"></i> remove</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="latest-update-box">
+                            <div class="row p-t-30 p-b-30">
+                                <div class="col-auto text-right update-meta">
+                                    <p class="text-muted m-b-0 d-inline-flex">5 min ago</p>
+                                    <i class="feather icon-twitter bg-twitter update-icon"></i>
+                                </div>
+                                <div class="col">
+                                    <a href="#!">
+                                        <h6>+ 20 Followers</h6>
+                                    </a>
+                                    <p class="text-muted m-b-0">Keep it up!</p>
+                                </div>
+                            </div>
+                            <div class="row p-b-30">
+                                <div class="col-auto text-right update-meta">
+                                    <p class="text-muted m-b-0 d-inline-flex">8 hrs ago</p>
+                                    <i class="feather icon-briefcase bg-c-red update-icon"></i>
+                                </div>
+                                <div class="col">
+                                    <a href="#!">
+                                        <h6>+ 15 New Products were added!</h6>
+                                    </a>
+                                    <p class="text-muted m-b-0">So excited!</p>
+                                </div>
+                            </div>
+                            <div class="row p-b-0">
+                                <div class="col-auto text-right update-meta">
+                                    <p class="text-muted m-b-0 d-inline-flex">4 min ago</p>
+                                    <i class="feather icon-facebook bg-facebook update-icon"></i>
+                                </div>
+                                <div class="col">
+                                    <a href="#!">
+                                        <h6>+5 Friend Requests</h6>
+                                    </a>
+                                    <p class="text-muted m-b-10">New friends everyday!</p>
+                                    <div class="table-responsive">
+                                        <table class="table table-hover">
+                                            <tr>
+                                                <td class="b-none">
+                                                    <a href="#!" class="align-middle">
+                                                        <img src="https://scontent.fprn1-1.fna.fbcdn.net/v/t1.0-9/123775323_3767911529930804_8446799837012013433_n.jpg?_nc_cat=100&ccb=2&_nc_sid=09cbfe&_nc_ohc=tpNy2fX6HLwAX-vemVP&_nc_ht=scontent.fprn1-1.fna&oh=22b46998c8e6dcbf89bc6d1b2cf9cb7d&oe=5FED28B9" class="img-radius wid-40 align-top m-r-15">
+                                                        <div class="d-inline-block">
+                                                            <h6>Altinë Salihu</h6>
+                                                            <p class="text-muted m-b-0">Web Designer</p>
+                                                        </div>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <a href="#!" class="b-b-primary text-primary">View all Projects</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- prject ,team member start -->
+            <!-- seo start -->
+            <div class="col-xl-4 col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row align-items-center">
+                            <div class="col-6">
+                                <h3>32658</h3>
+                                <h6 class="text-muted m-b-0">Sellers<i class="fa fa-caret-down text-c-red m-l-10"></i></h6>
+                            </div>
+                            <div class="col-6">
+                                <div id="seo-chart1" class="d-flex align-items-end"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row align-items-center">
+                            <div class="col-6">
+                                <h3>72.9%</h3>
+                                <h6 class="text-muted m-b-0">Costumer rates<i class="fa fa-caret-up text-c-green m-l-10"></i></h6>
+                            </div>
+                            <div class="col-6">
+                                <div id="seo-chart2" class="d-flex align-items-end"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row align-items-center">
+                            <div class="col-6">
+                                <h3>589</h3>
+                                <h6 class="text-muted m-b-0">Partners<i class="fa fa-caret-down text-c-red m-l-10"></i></h6>
+                            </div>
+                            <div class="col-6">
+                                <div id="seo-chart3" class="d-flex align-items-end"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- seo end -->
+
+            <!-- Latest Customers start -->
+            <div class="col-lg-8 col-md-12">
+                <div class="card table-card review-card">
+                    <div class="card-header borderless ">
+                        <h5>Customer Reviews</h5>
+                        <div class="card-header-right">
+                            <div class="btn-group card-option">
+                                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="feather icon-more-horizontal"></i>
+                                </button>
+                                <ul class="list-unstyled card-option dropdown-menu dropdown-menu-right">
+                                    <li class="dropdown-item full-card"><a href="#!"><span><i class="feather icon-maximize"></i> maximize</span><span style="display:none"><i class="feather icon-minimize"></i> Restore</span></a></li>
+                                    <li class="dropdown-item minimize-card"><a href="#!"><span><i class="feather icon-minus"></i> collapse</span><span style="display:none"><i class="feather icon-plus"></i> expand</span></a></li>
+                                    <li class="dropdown-item reload-card"><a href="#!"><i class="feather icon-refresh-cw"></i> reload</a></li>
+                                    <li class="dropdown-item close-card"><a href="#!"><i class="feather icon-trash"></i> remove</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="review-block">
+                            <div class="row">
+                                <div class="col-sm-auto p-r-0">
+                                    <img src="https://i.pinimg.com/originals/f0/a6/4e/f0a64e32194d341befecc80458707565.jpg" alt="user image" class="img-radius profile-img cust-img m-b-15">
+                                </div>
+                                <div class="col">
+                                    <h6 class="m-b-15">Klara <span class="float-right f-13 text-muted"> a week ago</span></h6>
+                                    <a href="#!"><i class="feather icon-star-on f-18 text-c-yellow"></i></a>
+                                    <a href="#!"><i class="feather icon-star-on f-18 text-c-yellow"></i></a>
+                                    <a href="#!"><i class="feather icon-star-on f-18 text-c-yellow"></i></a>
+                                    <a href="#!"><i class="feather icon-star f-18 text-muted"></i></a>
+                                    <a href="#!"><i class="feather icon-star f-18 text-muted"></i></a>
+                                    <p class="m-t-15 m-b-15 text-muted">This shop is so nice, the workers are so nice and for them their customers are the priority</p>
+                                    <a href="#!" class="m-r-30 text-muted"><i class="feather icon-thumbs-up m-r-15"></i>Helpful?</a>
+                                    <a href="#!"><i class="feather icon-heart-on text-c-red m-r-15"></i></a>
+                                    <a href="#!"><i class="feather icon-edit text-muted"></i></a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-auto p-r-0">
+                                    <img src="https://static.toiimg.com/photo/msid-71970885/71970885.jpg?1145666" alt="user image" class="img-radius profile-img cust-img m-b-15">
+                                </div>
+                                <div class="col">
+                                    <h6 class="m-b-15">Leonita <span class="float-right f-13 text-muted"> a week ago</span></h6>
+                                    <a href="#!"><i class="feather icon-star-on f-18 text-c-yellow"></i></a>
+                                    <a href="#!"><i class="feather icon-star f-18 text-muted"></i></a>
+                                    <a href="#!"><i class="feather icon-star f-18 text-muted"></i></a>
+                                    <a href="#!"><i class="feather icon-star f-18 text-muted"></i></a>
+                                    <a href="#!"><i class="feather icon-star f-18 text-muted"></i></a>
+                                    <p class="m-t-15 m-b-15 text-muted">The ship took so long until it came!!!</p>
+                                    <a href="#!" class="m-r-30 text-muted"><i class="feather icon-thumbs-up m-r-15"></i>Helpful?</a>
+                                    <a href="#!"><i class="feather icon-heart-on text-c-red m-r-15"></i></a>
+                                    <a href="#!"><i class="feather icon-edit text-muted"></i></a>
+                                    <blockquote class="blockquote m-t-15 m-b-0">
+                                        <h6>Teuta</h6>
+                                        <p class="m-b-0 text-muted">This company ships the best products all over Europe and more in record time,but maybe the country that u were was so far from the shop location</p>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-right  m-r-20">
+                            <a href="#!" class="b-b-primary text-primary">View all Customer Reviews</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="mb-3">Future employees</h5>
+                                <h2>2500 <span class="text-muted m-l-5 f-14"></span> The goal</h2>
+                                <div id="power-card-chart1"></div>
+                                <div class="row">
+                                    <div class="col col-auto">
+                                        <div class="map-area">
+                                            <h6 class="m-0">500 <span> </span>new employees</h6>
+                                            <p class="text-muted m-0">This year</p>
+                                        </div>
+                                    </div>
+                                    <div class="col col-auto">
+                                        <div class="map-area">
+                                            <h6 class="m-0">2000 <span> new employees</span></h6>
+                                            <p class="text-muted m-0">Future years</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="mb-3">Employees</h5>
+                                <h2><span class="text-muted m-l-10 f-14"></span></h2>
+                                <div id="power-card-chart3"></div>
+                                <div class="row">
+                                    <div class="col col-auto">
+                                        <div class="map-area">
+                                            <h6 class="m-0">10 <span> </span></h6>
+                                            <p class="text-muted m-0">First Year</p>
+                                        </div>
+                                    </div>
+                                    <div class="col col-auto">
+                                        <div class="map-area">
+                                            <h6 class="m-0">1500 <span> </span></h6>
+
+                                            <p class="text-muted m-0">This year</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <div class="card chat-card">
+                    <div class="card-header">
+                        <h5>Chat</h5>
+                        <div class="card-header-right">
+                            <div class="btn-group card-option">
+                                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="feather icon-more-horizontal"></i>
+                                </button>
+                                <ul class="list-unstyled card-option dropdown-menu dropdown-menu-right">
+                                    <li class="dropdown-item full-card"><a href="#!"><span><i class="feather icon-maximize"></i> maximize</span><span style="display:none"><i class="feather icon-minimize"></i> Restore</span></a></li>
+                                    <li class="dropdown-item minimize-card"><a href="#!"><span><i class="feather icon-minus"></i> collapse</span><span style="display:none"><i class="feather icon-plus"></i> expand</span></a></li>
+                                    <li class="dropdown-item reload-card"><a href="#!"><i class="feather icon-refresh-cw"></i> reload</a></li>
+                                    <li class="dropdown-item close-card"><a href="#!"><i class="feather icon-trash"></i> remove</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="row m-b-20 received-chat">
+                            <div class="col-auto p-r-0">
+                                <img src="https://news.berkeley.edu/wp-content/uploads/2020/03/Maryam-Karimi-01-750.jpg" class="img-radius wid-40">
+                            </div>
+                            <div class="col">
+                                <div class="msg">
+                                    <p class="m-b-0">Hi Im interested to buy a foundation. Can u suggest me one for dry skin?</p>
+                                </div>
+                                <p class="text-muted m-b-0"><i class="fa fa-clock-o m-r-10"></i>13:12pm</p>
+                            </div>
+                        </div>
+                        <div class="row m-b-20 send-chat">
+                            <div class="col">
+                                <div class="msg">
+                                    <p class="m-b-0">Thank you for choosing our company, our best foundations for dry skin is the Gorge Armani one, Loreal and Revolution. Hope we helped you!</p>
+                                </div>
+                                <p class="text-muted m-b-0"><i class="fa fa-clock-o m-r-10"></i>13:30pm</p>
+                            </div>
+                            <div class="col-auto p-l-0">
+                                <img src="">
+                            </div>
+                        </div>
+                        <div class="row m-b-20 received-chat">
+                            <div class="col-auto p-r-0">
+                                <img src="https://news.berkeley.edu/wp-content/uploads/2020/03/Maryam-Karimi-01-750.jpg" alt="user image" class="img-radius wid-40">
+                            </div>
+                            <div class="col">
+                                <div class="msg">
+                                    <p class="m-b-0">Thank you I will finish the order for the Armani foundation and I will send some pic of my skin color so you will choose the foundation base on it  </p>
+                                    <img src="https://www.icolorpalette.com/download/solidcolorimage/fce2c4_solid_color_background_icolorpalette.png" alt="">
+                                    
+                                </div>
+                                <p class="text-muted m-b-0"><i class="fa fa-clock-o m-r-10"></i>13:40pm</p>
+                            </div>
+                        </div>
+                        <div class="form-group m-t-15">
+                            <label class="floating-label" for="Project">Send message</label>
+                            <input type="text" name="task-insert" class="form-control" id="Project">
+                            <div class="form-icon">
+                                <button class="btn btn-primary btn-icon">
+                                    <i class="feather icon-message-circle"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              
+            </div>
+            <!-- Latest Customers end -->
+        </div>
+        <!-- [ Main Content ] end -->
+    </div>
+</div>
+<!-- [ Main Content ] end -->
+  
+    <!-- Required Js -->
+    <script src="assets/js/vendor-all.min.js"></script>
+    <script src="assets/js/plugins/bootstrap.min.js"></script>
+    <script src="assets/js/ripple.js"></script>
+    <script src="assets/js/pcoded.min.js"></script>
+
+<!-- Apex Chart -->
+<script src="assets/js/plugins/apexcharts.min.js"></script>
+
+
+<!-- custom-chart js -->
+<script src="assets/js/pages/dashboard-main.js"></script>
+</body>
+</html>
